@@ -39,9 +39,4 @@ I developed a Python-based function to calculate the **Intrinsic Depreciated Val
 * **Brand Dominance:** High-tier brands like Toyota and Honda showed lower depreciation rates compared to luxury or niche brands[cite: 1].
 * **Risk Factors:** Vehicles exceeding 15 years were categorized as "High Risk" due to accelerated value loss[cite: 1].
 
----
 
-## 🚀 How to Use
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/Prakash-rawat485/Learning-core-python.git](https://github.com/Prakash-rawat485/Learning-core-python.git)
