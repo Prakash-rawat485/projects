@@ -1,4 +1,4 @@
-# 📊 E-Commerce Customer Churn Analysis & Prediction
+# 📊 E-Commerce Customer Churn Analysis 
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Data Science](https://img.shields.io/badge/Field-Data%20Science-success.svg)]()
