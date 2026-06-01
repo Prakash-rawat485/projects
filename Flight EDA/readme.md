@@ -54,13 +54,6 @@ Using a correlation engine, this visual automatically groups variables by behavi
 * **Advanced Interactive Visuals:** `plotly.express`
 * **Statistical Methods:** Pearson Correlation Matrix Clustering, Density Hexagonal Binning, Faceted Grid Analysis
 
----
-
-## 📈 How to Run the Notebook
-1. Clone this repository to your local workspace.
-2. Ensure you have the updated dependency stack to avoid version conflicts with NumPy 2.0+ attributes:
-   ```bash
 
    author-
    prakash rawat(data scientist)
-   pip install --upgrade pandas numpy seaborn matplotlib plotly xarray
