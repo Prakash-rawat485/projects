@@ -15,9 +15,13 @@ This project cleans, transforms, and analyzes a multi-feature flight dataset to 
 
 ## 🧪 Core Hypotheses Tested
 
-* **Hypothesis 1 (The Timing Vector):** Flight delays are not uniformly distributed throughout the week; specific high-volume transit days experience systemic bottlenecks due to network congestion. *(Status: **CONFIRMED** — Friday/Day 5 identified as the peak operational risk point).*
-* **Hypothesis 2 (The Correlation Chain):** Departure delays are primarily driven by localized, internal carrier inefficiencies rather than geographic transit lengths. *(Status: **CONFIRMED** — High correlation with Carrier/Late Aircraft metrics; zero correlation with Distance).*
-* **Hypothesis 3 (Mutual Exclusivity of Triggers):** Operational failures from distinct categories (e.g., Carrier vs. Late Incoming Aircraft) occur independently rather than compounding simultaneously on the same flight. *(Status: **CONFIRMED** — Clear L-shaped distribution observed).*
+## 🧪 Core Hypotheses Tested
+
+* **Hypothesis 1 (The Weather Factor):** Bad weather conditions directly destabilize scheduled times and lead to severe flight delays. 
+  *(Status: **PARTIALLY UNIQUE** — While weather causes massive individual spikes, the data shows it happens far less frequently than standard carrier or late-aircraft issues).*
+
+* **Hypothesis 2 (The Late Cascade):** Leaving late directly results in reaching late. A delay at departure creates an immediate, unrecoverable delay at arrival.
+  *(Status: **CONFIRMED** — Departure Delay (`Dep_Delay`) holds the highest correlation score ($r = 0.47$) with actual Arrival Delays (`Arrival_Delay_15_Min`), proving that late departures almost always guarantee late landings).*
 
 ---
 
