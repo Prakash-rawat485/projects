@@ -13,7 +13,6 @@ This project cleans, transforms, and analyzes a multi-feature flight dataset to 
 
 ---
 
-## 🧪 Core Hypotheses Tested
 
 ## 🧪 Core Hypotheses Tested
 
